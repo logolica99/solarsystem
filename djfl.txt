@@ -1,0 +1,41 @@
+<p class="description">Hello I am earth. Earth is the third planet from the Sun and the only<br>
+         astronomical object known to harbor life. According to radiometric <br>dating estimation and other evidence,
+         earth formed over 4.5 billion<br> years ago. Earth's gravity interacts with other objects in space,<br>
+         especially the Sun and the Moon, which is Earth's only natural satellite.<br> Earth orbits around
+         the Sun in 365.256 solar days, a period known as<br> an Earth sidereal year. During this time, 
+         Earth rotates about its axis<br>366.256 times, that is, a sidereal year has 366.256 sidereal
+         days.  Earth's<br> axis of rotation is tilted with respect to its orbital plane, producing<br> seasons
+         on Earth. The gravitational interaction between Earth and<br> the Moon causes tides, stabilizes
+         Earth's orientation on its axis, and <br>gradually slows its rotation. Earth is the densest planet
+          in the Solar<br> System and the largest and most massive of the four rocky planets. <br>To know more about me click on the picture.
+        </p>   
+
+
+
+
+
+
+
+.image-container {
+    display: flex;
+    height : 375px;
+    width: 600px;
+    position: absolute;
+    right:80px;
+    top:200px;
+    animation:drop 1.5s ease;
+}
+.description{
+    display:flex;
+    flex:right;
+    font-family:'Raleway', sans-serif;
+    position: absolute;
+    font-size:20px;
+    padding: 20px ;
+    top:200px;
+    left:80px;
+    animation:drop1 3.5s ease;
+    letter-spacing: 1px;
+    
+    
+}

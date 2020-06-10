@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    display: flex;
+    background-color: black;
+    width:100%;
+    
+
+    height: 10vh;
+    align-items: center;
+}
+nav {
+    flex:1;
+
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+    
+
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+    transition:0.6s ease;
+     
+
+}
+.nav-link:link, .hello:visited {
+  background-color:black;
+  padding: 10px 25px;
+  color: white;
+    font-family: "raleway";
+ 
+ 
+
+}		
+
+.nav-link:hover, .hello:active {
+  background-color: white;
+  color:black;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform:translateY(-120px);
+    }
+    100%{
+        
+        opacity: 1;
+        transform:translateY(0px);
+
+    }
+}
+@keyframes drop1 {
+    0% {
+        opacity: 0;
+        transform:translateX(-80px)
+    }
+    100%{
+        
+        opacity: 1;
+        transform:translateX(0px);
+
+    }
+}
+.image-container-earth{
+   
+    height:54vh;
+    top:90px;
+    position: relative;
+    width:100%;
+    justify-content: space-around;
+    display: flex;
+   
+}
+.image-container-earth img{
+    width:600px;
+    animation: drop 2s ease;
+    
+   
+}
+.image-container-earth p{
+    margin-top: 23px;
+    font-size:20px;
+    animation: drop1 2s ease ;
+}
+.image-container-mars{
+    
+   
+    height:70vh;
+    top:200px;
+    position: relative;
+    width:100%;
+    justify-content: space-around;
+    display: flex;
+    background-color: black;
+
+}
+.image-container-mars img{
+    width:690px;
+    animation: drop1 2s ease;
+    height:54vh;
+    position:relative;
+    right:100px;
+    top:50px;
+
+    
+   
+}
+.image-container-mars p{
+    margin-top: 73px;
+    font-size:20px;
+    color:white;
+    animation: drop 2s ease ;
+}
+.ending{
+    
+    height:15vh;
+    position: relative; ;
+    top:500px;
+    background-color: black;
+}
+.ending h3{
+    color:white;
+    position: relative;
+    left:50px;
+    top:30px;
+}
